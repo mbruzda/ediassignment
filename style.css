@@ -97,3 +97,12 @@ ul{
 .choice{
     display: none;
 }
+#locErr{
+    background-color: rgb(241, 89, 89);
+    width: 18%;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    block-size: auto 
+    
+}

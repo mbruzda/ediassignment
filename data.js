@@ -22,11 +22,12 @@ function onclickAPI(){
 
         const city = document.querySelector("input").value
         let url = `https://eu1.locationiq.com/v1/search.php?key=${key1}&q=${city}&format=json`
-        
         const response = await fetch(url)
         const data = await response.json()
         //console.log(data)
         return data 
+    
+        
     }
     // Response Formatter
     async function getPlaceData(){
@@ -38,14 +39,20 @@ function onclickAPI(){
     }
     // WHEATHER REQUEST
     async function weatherRequest(){
-
-        const cords = await getPlaceData()
-        const proxy = 'https://cors-anywhere.herokuapp.com/'
-        const url = `${proxy}https://api.darksky.net/forecast/${key2}/${cords.lat},${cords.lon}?units=ca`
+        try {
+            const cords = await getPlaceData()
+            const proxy = 'https://cors-anywhere.herokuapp.com/'
+            const url = `${proxy}https://api.darksky.net/forecast/${key2}/${cords.lat},${cords.lon}?units=ca`
         
-        const response = await fetch(url)
-        const data = await response.json()
+            const response = await fetch(url)
+            const data = await response.json()
+            locGood()
         return data
+        } catch (err) {
+            //console.error(err)
+            locErr()       
+        }
+        
     }
     async function HTMLmanipulation(){
         const data =  await weatherRequest()
@@ -584,5 +591,15 @@ function setIcons(icon, iconID){
     return skycons.set(iconID, Skycons[currentIcon]) 
 }
 
-
-
+function locErr() {
+    var x = document.getElementById("locErr");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    }
+  }
+  function locGood() {
+    var x = document.getElementById("locErr");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    }
+  }
