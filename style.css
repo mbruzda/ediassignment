@@ -5,12 +5,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #0D44C1;
+    background-color: royalblue;
     color: whitesmoke;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.mainHeader{
+    margin-top: 15px;
+}
 .inputContainer{
     display: block;
     margin: 20px auto;
@@ -78,4 +80,20 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+#chart{
+    display: none;
+    background-color: white;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.choiceafter{
+    background-color: white;
+    margin:5px;
+    border-radius: 6px;
+    font-weight: bold;
+    color:grey;
+}
+.choice{
+    display: none;
 }
