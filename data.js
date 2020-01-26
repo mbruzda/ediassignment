@@ -72,7 +72,7 @@ function onclickAPI(){
                 <div class= "innerBox">
                     <ul>
                     <li><i class="fas fa-arrow-up"></i>${data.daily.data[0].temperatureMax} &#x2103</li>
-                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[0].temperatureMin}</li>
+                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[0].temperatureMin} &#x2103</li>
                     </ul>
                     <canvas class="icon" width="64" height="64"></canvas>
                 </div>
@@ -81,8 +81,8 @@ function onclickAPI(){
                 <p>${timeConverter(Number(data.daily.data[1].time)) + ' 2020'}</p>
                 <div class= "innerBox">
                     <ul>
-                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[1].temperatureMax}</li>
-                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[1].temperatureMin}</li>
+                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[1].temperatureMax} &#x2103</li>
+                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[1].temperatureMin} &#x2103</li>
                     </ul>
                     <canvas class="icon" width="64" height="64"></canvas>
                 </div>
@@ -91,8 +91,8 @@ function onclickAPI(){
                 <p>${timeConverter(Number(data.daily.data[2].time)) + ' 2020'}</p>
                 <div class= "innerBox">
                     <ul>
-                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[2].temperatureMax}</li>
-                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[2].temperatureMin}</li>
+                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[2].temperatureMax} &#x2103</li>
+                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[2].temperatureMin} &#x2103</li>
                     </ul>
                     <canvas class="icon" width="64" height="64"></canvas>
                 </div>
@@ -101,8 +101,8 @@ function onclickAPI(){
                 <p>${timeConverter(Number(data.daily.data[3].time)) + ' 2020'}</p>
                 <div class= "innerBox">
                     <ul>
-                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[3].temperatureMax}</li>
-                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[3].temperatureMin}</li>
+                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[3].temperatureMax} &#x2103</li>
+                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[3].temperatureMin} &#x2103</li>
                     </ul>
                     <canvas class="icon" width="64" height="64"></canvas>
                 </div>
@@ -111,8 +111,8 @@ function onclickAPI(){
                 <p>${timeConverter(Number(data.daily.data[4].time)) + ' 2020'}</p>
                 <div class= "innerBox">
                     <ul>
-                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[4].temperatureMax}</li>
-                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[4].temperatureMin}</li>
+                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[4].temperatureMax} &#x2103</li>
+                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[4].temperatureMin} &#x2103</li>
                     </ul>
                     <canvas class="icon" width="64" height="64"></canvas>
                 </div>
@@ -121,8 +121,8 @@ function onclickAPI(){
                 <p>${timeConverter(Number(data.daily.data[5].time)) + ' 2020'}</p>
                 <div class= "innerBox">
                     <ul>
-                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[5].temperatureMax}</li>
-                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[5].temperatureMin}</li>
+                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[5].temperatureMax} &#x2103</li>
+                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[5].temperatureMin} &#x2103</li>
                     </ul>
                     <canvas class="icon" width="64" height="64"></canvas>
                 </div>
@@ -131,8 +131,8 @@ function onclickAPI(){
                 <p>${timeConverter(Number(data.daily.data[6].time)) + ' 2020'}</p>
                 <div class= "innerBox">
                     <ul>
-                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[6].temperatureMax}</li>
-                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[6].temperatureMin}</li>
+                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[6].temperatureMax} &#x2103</li>
+                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[6].temperatureMin} &#x2103</li>
                     </ul>
                     <canvas class="icon" width="64" height="64"></canvas>
                 </div>
@@ -141,8 +141,8 @@ function onclickAPI(){
                 <p>${timeConverter(Number(data.daily.data[7].time)) + ' 2020'}</p>
                 <div class= "innerBox">
                     <ul>
-                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[7].temperatureMax}</li>
-                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[7].temperatureMin}</li>
+                    <li><i class="fas fa-arrow-up"></i>${data.daily.data[7].temperatureMax} &#x2103</li>
+                    <li><i class="fas fa-arrow-down"></i>${data.daily.data[7].temperatureMin} &#x2103</li>
                     </ul>
                     <canvas class="icon" width="64" height="64"></canvas>
                 </div>
